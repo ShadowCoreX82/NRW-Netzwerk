@@ -21,8 +21,8 @@ const client = new Client({
 
 const TOKEN = process.env.DISCORD_TOKEN;
 
-const SUPPORT_ROLE_ID = '1399462359571103958'; // Z.B. Moderatoren-Rolle
-const EVERYONE_ROLE_ID = '1399455760735272990'; // Die @everyone Rolle ID deines Servers
+const SUPPORT_ROLE_ID = '1404592184069460148'; // Z.B. Moderatoren-Rolle
+const EVERYONE_ROLE_ID = '1404592183205560474'; // Die @everyone Rolle ID deines Servers
 
 // ACHTUNG: ERSETZE DIESE MIT DEINEN EIGENEN KATEGORIE-ID'S!
 const TICKET_CATEGORY_MAP = {
@@ -32,14 +32,14 @@ const TICKET_CATEGORY_MAP = {
     'package_offers': '1399826541084414103', // Beispiel: Kategorie ID für Paket Angebote
 };
 
-const LOG_CHANNEL_ID = '1399495214644858880'; // Kanal-ID für Bot-Logs
-const VERIFICATION_CHANNEL_ID = '1399463428906649721'; // Kanal-ID für das Verifizierungspanel
-const VERIFIED_ROLE_ID = '1399463553255393301'; // ID der Rolle, die nach der Verifizierung vergeben wird
-const UNVERIFIED_ROLE_ID = '1399463660503027870'; // ID der Rolle für unbestätigte Benutzer (falls verwendet)
-const WELCOME_CHANNEL_ID = '1399463784112255099'; // Optional: Kanal-ID für Willkommensnachrichten
-const VOICE_PING_ROLE_ID = '1399463901691238401'; // ID der Rolle, die bei Sprachkanal-Beitritt gepingt werden soll
-const VOICE_PING_CHANNEL_ID = '1399464010619881472'; // Kanal-ID, in den der Voice-Ping gesendet werden soll
-const EMBED_CREATOR_ROLE_ID = '1399464112467558913'; // Rolle, die Embeds erstellen darf
+const LOG_CHANNEL_ID = '1404754325405831258'; // Kanal-ID für Bot-Logs
+const VERIFICATION_CHANNEL_ID = '1404597124108128276'; // Kanal-ID für das Verifizierungspanel
+const VERIFIED_ROLE_ID = '1404592184291758127'; // ID der Rolle, die nach der Verifizierung vergeben wird
+const UNVERIFIED_ROLE_ID = '1404592183205560474'; // ID der Rolle für unbestätigte Benutzer (falls verwendet)
+const WELCOME_CHANNEL_ID = '1407067244286050315'; // Optional: Kanal-ID für Willkommensnachrichten
+const VOICE_PING_ROLE_ID = '1404592184069460148'; // ID der Rolle, die bei Sprachkanal-Beitritt gepingt werden soll
+const VOICE_PING_CHANNEL_ID = '1404765246660411422'; // Kanal-ID, in den der Voice-Ping gesendet werden soll
+const EMBED_CREATOR_ROLE_ID = '1404592184069460147'; // Rolle, die Embeds erstellen darf
 
 
 // In-Memory-Speicher für die letzten Logs (für den search-logs Befehl)
